@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* tailwind.config.css or your custom CSS file */
+@layer utilities {
+  .custom-width {
+    width: calc(90% - 5px);
+  }
+}
